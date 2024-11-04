@@ -3,12 +3,12 @@ import app from "./app";
 const port = 3000;
 
 app.listen(port, () => {
-  console.log("Sever is running on port ", port);
+  console.log("Server is running on port ", port);
 });
 
 async function main() {
   const server: Server = app.listen(port, () => {
-    console.log("Sever is running on port ", port);
+    console.log("Server is running on port ", port);
   });
 
   // const exitHandler = () => {
